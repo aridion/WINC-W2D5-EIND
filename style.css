@@ -1,0 +1,41 @@
+/* BONUS */
+
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 7vw 10vw 0 10vw;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+
+}
+
+li {
+    list-style: none;
+    margin-right: 5%;
+}
+
+a {
+    display: block;
+}
+
+img {
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+
+/* GRID  */
+
+#relevant-movies {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
